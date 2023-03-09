@@ -31,8 +31,8 @@ jobs:
 
       - name: generate archives
         run: |
-          tar -czf KDE-Monterey.tar.gz ./plasma/look-and-feel/com.github.vinceliuice.Monterey/*
-          tar -czf KDE-Monterey-dark.tar.gz ./plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/*
+          tar -czf KDE-Monterey.tar.gz -C ./plasma/look-and-feel/com.github.vinceliuice.Monterey/ .
+          tar -czf KDE-Monterey-dark.tar.gz -C ./plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/ .
 
       - name: push changes
         run: |
