@@ -1,0 +1,258 @@
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js b/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
+index 75fee84..a6c95fb 100644
+--- a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
++++ b/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
+@@ -27,7 +27,7 @@ var layout = {
+                     "sortMode": "-1"
+                 },
+                 "/Wallpaper/org.kde.image/General": {
+-                    "Image": "file:///home/vince/Pictures/WhiteSur.png"
++                    "Image": "/usr/share/wallpapers/Honeywave/"
+                 }
+             },
+             "wallpaperPlugin": "org.kde.image"
+@@ -39,24 +39,16 @@ var layout = {
+             "applets": [
+                 {
+                     "config": {
+-                        "/": {
+-                            "immutability": "1"
+-                        },
+-                        "/Configuration": {
+-                            "PreloadWeight": "100"
+-                        },
+-                        "/Configuration/General": {
+-                            "favoritesPortedToKAstats": "true",
+-                            "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
+-                        },
+-                        "/Configuration/Shortcuts": {
+-                            "global": "Alt+F1"
++                        "/ConfigDialog": {
++                            "DialogHeight": "540",
++                            "DialogWidth": "720"
+                         },
+-                        "/Shortcuts": {
+-                            "global": "Alt+F1"
++                        "/General": {
++                            "launchers": "",
++                            "showText": "false"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.kickoff"
++                    "plugin": "org.kde.plasma.windowlist"
+                 },
+                 {
+                     "config": {
+@@ -87,30 +79,53 @@ var layout = {
+                         },
+                         "/Configuration": {
+                             "PreloadWeight": "100"
++                        },
++                        "/Configuration/General": {
++                            "favoritesPortedToKAstats": "true",
++                            "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
++                        },
++                        "/Configuration/Shortcuts": {
++                            "global": "Alt+F1"
++                        },
++                        "/Shortcuts": {
++                            "global": "Alt+F1"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.systemtray"
++                    "plugin": "org.kde.plasma.kickoff"
++                },
++                {
++                    "config": {
++                    },
++                    "plugin": "org.kde.plasma.marginsseparator"
+                 },
+                 {
+                     "config": {
+                         "/": {
+-                            "immutability": "1"
++                            "PreloadWeight": "100",
++                            "popupHeight": "450",
++                            "popupWidth": "810"
+                         },
+-                        "/Configuration": {
+-                            "PreloadWeight": "100"
++                        "/Appearance": {
++                            "dateFormat": "custom",
++                            "selectedTimeZones": "America/Toronto,Europe/London,Local"
+                         },
+-                        "/Configuration/Appearance": {
+-                            "fontFamily": "Cantarell",
+-                            "showDate": "true",
+-                            "spinboxHorizontalPercentage": "50",
+-                            "use24hFormat": "2"
+-                        },
+-                        "/Configuration/ConfigDialog": {
++                        "/ConfigDialog": {
+                             "DialogHeight": "540",
+                             "DialogWidth": "720"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.splitdigitalclock"
++                    "plugin": "org.kde.plasma.digitalclock"
++                },
++                {
++                    "config": {
++                        "/": {
++                            "immutability": "1"
++                        },
++                        "/Configuration": {
++                            "PreloadWeight": "0"
++                        }
++                    },
++                    "plugin": "org.kde.plasma.panelspacer"
+                 },
+                 {
+                     "config": {
+@@ -122,6 +137,17 @@ var layout = {
+                         }
+                     },
+                     "plugin": "org.kde.milou"
++                },
++                {
++                    "config": {
++                        "/": {
++                            "immutability": "1"
++                        },
++                        "/Configuration": {
++                            "PreloadWeight": "100"
++                        }
++                    },
++                    "plugin": "org.kde.plasma.systemtray"
+                 }
+             ],
+             "config": {
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js b/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
+index 75fee84..a6c95fb 100644
+--- a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
++++ b/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
+@@ -27,7 +27,7 @@ var layout = {
+                     "sortMode": "-1"
+                 },
+                 "/Wallpaper/org.kde.image/General": {
+-                    "Image": "file:///home/vince/Pictures/WhiteSur.png"
++                    "Image": "/usr/share/wallpapers/Honeywave/"
+                 }
+             },
+             "wallpaperPlugin": "org.kde.image"
+@@ -39,24 +39,16 @@ var layout = {
+             "applets": [
+                 {
+                     "config": {
+-                        "/": {
+-                            "immutability": "1"
+-                        },
+-                        "/Configuration": {
+-                            "PreloadWeight": "100"
+-                        },
+-                        "/Configuration/General": {
+-                            "favoritesPortedToKAstats": "true",
+-                            "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
+-                        },
+-                        "/Configuration/Shortcuts": {
+-                            "global": "Alt+F1"
++                        "/ConfigDialog": {
++                            "DialogHeight": "540",
++                            "DialogWidth": "720"
+                         },
+-                        "/Shortcuts": {
+-                            "global": "Alt+F1"
++                        "/General": {
++                            "launchers": "",
++                            "showText": "false"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.kickoff"
++                    "plugin": "org.kde.plasma.windowlist"
+                 },
+                 {
+                     "config": {
+@@ -87,30 +79,53 @@ var layout = {
+                         },
+                         "/Configuration": {
+                             "PreloadWeight": "100"
++                        },
++                        "/Configuration/General": {
++                            "favoritesPortedToKAstats": "true",
++                            "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
++                        },
++                        "/Configuration/Shortcuts": {
++                            "global": "Alt+F1"
++                        },
++                        "/Shortcuts": {
++                            "global": "Alt+F1"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.systemtray"
++                    "plugin": "org.kde.plasma.kickoff"
++                },
++                {
++                    "config": {
++                    },
++                    "plugin": "org.kde.plasma.marginsseparator"
+                 },
+                 {
+                     "config": {
+                         "/": {
+-                            "immutability": "1"
++                            "PreloadWeight": "100",
++                            "popupHeight": "450",
++                            "popupWidth": "810"
+                         },
+-                        "/Configuration": {
+-                            "PreloadWeight": "100"
++                        "/Appearance": {
++                            "dateFormat": "custom",
++                            "selectedTimeZones": "America/Toronto,Europe/London,Local"
+                         },
+-                        "/Configuration/Appearance": {
+-                            "fontFamily": "Cantarell",
+-                            "showDate": "true",
+-                            "spinboxHorizontalPercentage": "50",
+-                            "use24hFormat": "2"
+-                        },
+-                        "/Configuration/ConfigDialog": {
++                        "/ConfigDialog": {
+                             "DialogHeight": "540",
+                             "DialogWidth": "720"
+                         }
+                     },
+-                    "plugin": "org.kde.plasma.splitdigitalclock"
++                    "plugin": "org.kde.plasma.digitalclock"
++                },
++                {
++                    "config": {
++                        "/": {
++                            "immutability": "1"
++                        },
++                        "/Configuration": {
++                            "PreloadWeight": "0"
++                        }
++                    },
++                    "plugin": "org.kde.plasma.panelspacer"
+                 },
+                 {
+                     "config": {
+@@ -122,6 +137,17 @@ var layout = {
+                         }
+                     },
+                     "plugin": "org.kde.milou"
++                },
++                {
++                    "config": {
++                        "/": {
++                            "immutability": "1"
++                        },
++                        "/Configuration": {
++                            "PreloadWeight": "100"
++                        }
++                    },
++                    "plugin": "org.kde.plasma.systemtray"
+                 }
+             ],
+             "config": {

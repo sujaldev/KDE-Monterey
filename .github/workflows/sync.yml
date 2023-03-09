@@ -25,6 +25,7 @@ jobs:
       - name: apply patch
         run: |
           curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/logo.patch | git apply
+          curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/panel.patch | git apply
           curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/README.md --output README.md
 
       - name: push changes
