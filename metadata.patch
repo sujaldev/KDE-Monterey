@@ -1,7 +1,90 @@
-diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop b/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop
-index 9d67bb8..8d04f97 100644
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/defaults b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/defaults
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/defaults
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/defaults
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/layouts/org.kde.plasma.desktop-layout.js
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/fullscreenpreview.jpg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/fullscreenpreview.jpg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/fullscreenpreview.jpg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/fullscreenpreview.jpg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/preview.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/preview.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/preview.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/preview.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/splash.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/splash.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/splash.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/previews/splash.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/Splash.qml b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/Splash.qml
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/Splash.qml
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/Splash.qml
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/background.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/background.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/background.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/background.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-00.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-00.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-00.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-00.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-01.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-01.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-01.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-01.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-02.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-02.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-02.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-02.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-03.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-03.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-03.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-03.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-04.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-04.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-04.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-04.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-05.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-05.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-05.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-05.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-06.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-06.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-06.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-06.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-07.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-07.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-07.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-07.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-08.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-08.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-08.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-08.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-09.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-09.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-09.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-09.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-10.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-10.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-10.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-10.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-11.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-11.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/loading-11.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/loading-11.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/logo.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/logo.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/splash/images/logo.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/contents/splash/images/logo.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/metadata.desktop
+similarity index 85%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/metadata.desktop
+index 9d67bb8..3b0d469 100644
 --- a/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop
-+++ b/plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/metadata.desktop
++++ b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey-dark/metadata.desktop
 @@ -1,5 +1,5 @@
  [Desktop Entry]
 -Name=Monterey-dark
@@ -9,16 +92,105 @@ index 9d67bb8..8d04f97 100644
  Comment=Macos Monterey theme for kde plasma
  Encoding=UTF-8
  Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-@@ -18,4 +18,4 @@ X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Monterey-kde
+@@ -13,9 +13,9 @@ X-KDE-PluginInfo-Author=Vince Liuice
+ X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+ X-KDE-PluginInfo-License=GPL3.0
+ X-KDE-PluginInfo-Version=0.1
+-X-KDE-PluginInfo-Name=com.github.vinceliuice.Monterey-dark
++X-KDE-PluginInfo-Name=com.github.sujaldev.KDE-Monterey-dark
+ X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Monterey-kde
  X-KDE-fallbackPackage=org.kde.breeze.desktop
  X-Plasma-MainScript=defaults
  
 -X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1567570,kns://plasma-themes.knsrc/api.kde-look.org/1567587,kns://aurorae.knsrc/api.kde-look.org/1567564,kns://wallpaper.knsrc/api.kde-look.org/1567576,kns://sddmtheme.knsrc/api.kde-look.org/1567573,kns://icons.knsrc/api.kde-look.org/1405756,kns://xcursor.knsrc/api.kde-look.org/1411743
 +X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1567570,kns://plasma-themes.knsrc/api.kde-look.org/2000052,kns://aurorae.knsrc/api.kde-look.org/1567564,kns://wallpaper.knsrc/api.kde-look.org/1567576,kns://sddmtheme.knsrc/api.kde-look.org/1567573,kns://icons.knsrc/api.kde-look.org/1405756,kns://xcursor.knsrc/api.kde-look.org/1411743
-diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop b/plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop
-index db63bca..c486d97 100644
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/defaults b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/defaults
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/defaults
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/defaults
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/layouts/org.kde.plasma.desktop-layout.js
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/fullscreenpreview.jpg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/fullscreenpreview.jpg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/fullscreenpreview.jpg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/fullscreenpreview.jpg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/preview.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/preview.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/preview.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/preview.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/splash.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/splash.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/splash.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/previews/splash.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/Splash.qml b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/Splash.qml
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/Splash.qml
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/Splash.qml
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/background.png b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/background.png
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/background.png
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/background.png
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-00.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-00.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-00.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-00.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-01.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-01.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-01.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-01.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-02.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-02.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-02.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-02.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-03.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-03.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-03.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-03.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-04.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-04.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-04.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-04.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-05.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-05.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-05.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-05.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-06.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-06.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-06.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-06.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-07.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-07.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-07.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-07.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-08.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-08.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-08.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-08.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-09.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-09.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-09.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-09.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-10.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-10.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-10.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-10.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-11.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-11.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/loading-11.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/loading-11.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/logo.svg b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/logo.svg
+similarity index 100%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/splash/images/logo.svg
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/contents/splash/images/logo.svg
+diff --git a/plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/metadata.desktop
+similarity index 86%
+rename from plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop
+rename to plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/metadata.desktop
+index db63bca..035fc68 100644
 --- a/plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop
-+++ b/plasma/look-and-feel/com.github.vinceliuice.Monterey/metadata.desktop
++++ b/plasma/look-and-feel/com.github.sujaldev.KDE-Monterey/metadata.desktop
 @@ -1,5 +1,5 @@
  [Desktop Entry]
 -Name=Monterey
@@ -26,7 +198,13 @@ index db63bca..c486d97 100644
  Comment=Macos Monterey theme for kde plasma
  Encoding=UTF-8
  Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-@@ -18,4 +18,4 @@ X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Monterey-kde
+@@ -13,9 +13,9 @@ X-KDE-PluginInfo-Author=Vince Liuice
+ X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+ X-KDE-PluginInfo-License=GPL3.0
+ X-KDE-PluginInfo-Version=0.1
+-X-KDE-PluginInfo-Name=com.github.vinceliuice.Monterey
++X-KDE-PluginInfo-Name=com.github.sujaldev.KDE-Monterey
+ X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Monterey-kde
  X-KDE-fallbackPackage=org.kde.breeze.desktop
  X-Plasma-MainScript=defaults
  
