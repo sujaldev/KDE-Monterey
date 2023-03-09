@@ -25,6 +25,7 @@ jobs:
       - name: apply patch
         run: |
           curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/logo.patch | git apply
+          curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/README.md --output README.md
 
       - name: push changes
         run: |
@@ -32,4 +33,4 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "automated patches applied" || echo "no changes..."
-          git push
+          git push -f
