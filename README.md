@@ -7,9 +7,16 @@
     <br><hr>
     KDE Monterey
     <br>
-    <a href="https://github.com/sujaldev/Monterey-kde/actions/workflows/sync.yml">
-        <img alt="build status" src="https://github.com/sujaldev/Monterey-kde/actions/workflows/sync.yml/badge.svg?branch=sync"/>
+    <a href="https://github.com/sujaldev/KDE-Monterey/actions/workflows/sync.yml">
+        <img alt="build status" src="https://github.com/sujaldev/KDE-Monterey/actions/workflows/sync.yml/badge.svg?branch=sync"/>
     </a>
 </h1>
 
-This branch contains GitHub actions to apply KDE logo patches to the original repository.
+This is a fork of [Monterey KDE Theme](https://github.com/vinceliuice/Monterey-kde) by vinceliuice, it has the following
+modifications:
+
+* KDE Plasma logo instead of Apple logo
+* Top panel has a clock and application icon
+
+The source code is in the main branch. The sync branch contains GitHub workflows that apply patches for aforementioned
+changes to the original source code and store it in the main branch.
