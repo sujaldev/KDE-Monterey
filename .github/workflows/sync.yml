@@ -27,5 +27,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "automated patches applied"
+          git commit -m "automated patches applied" || echo "no changes..."
           git push
