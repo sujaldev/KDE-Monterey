@@ -6,22 +6,23 @@ on:
     - cron: "0 0 * * *" # every day at 00:00
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout main branch
-      uses: actions/checkout@v3
-      with:
-        ref: main
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
 
-    - name: sync upstream
-      run: |
-        git remote add upstream https://github.com/vinceliuice/Monterey-kde
-        git reset --hard upstream/main
+      - name: sync upstream
+        run: |
+          git remote add upstream https://github.com/vinceliuice/Monterey-kde
+          git reset --hard upstream/main
 
-    - name: push changes
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add .
-        git commit -m "automated patches applied"
-        git push
+      - name: push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "automated patches applied"
+          git push
