@@ -29,6 +29,11 @@ jobs:
           curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/metadata.patch | git apply
           curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/README.md --output README.md
 
+      - name: generate archives
+        run: |
+          tar -czf KDE-Monterey.tar.gz ./plasma/look-and-feel/com.github.vinceliuice.Monterey/*
+          tar -czf KDE-Monterey-dark.tar.gz ./plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/*
+
       - name: push changes
         run: |
           git config user.name Sujal Singh
