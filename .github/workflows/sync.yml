@@ -22,6 +22,10 @@ jobs:
           git pull upstream main
           git reset --hard upstream/main
 
+      - name: apply patch
+        run: |
+          curl https://raw.githubusercontent.com/sujaldev/Monterey-kde/sync/logo.patch | git apply
+
       - name: push changes
         run: |
           git config user.name github-actions
