@@ -36,8 +36,8 @@ jobs:
 
       - name: push changes
         run: |
-          git config user.name Sujal Singh
-          git config user.email email.sujalsingh@gmail.com
+          git config user.name "Github Actions [Bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "automated patches applied" || echo "no changes..."
           git push -f
