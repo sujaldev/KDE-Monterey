@@ -1,46 +1,22 @@
-<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> Monterey KDE Theme
-======
+<h1 align=center>
+    <img width=256 src="https://github.com/sujaldev/KDE-Monterey/blob/sync/assets/logo.png?raw=True"/>
+    <br><br>
+    <a href="https://www.pling.com/p/1999932/">
+        <img width=150 src="https://github.com/sujaldev/KDE-Monterey/blob/sync/assets/pling.png?raw=True"/>
+    </a>
+    <br><hr>
+    KDE Monterey
+    <br>
+    <a href="https://github.com/sujaldev/KDE-Monterey/actions/workflows/sync.yml">
+        <img alt="build status" src="https://github.com/sujaldev/KDE-Monterey/actions/workflows/sync.yml/badge.svg?branch=sync"/>
+    </a>
+</h1>
 
-Monterey kde is a MacOS Monterey like theme for KDE Plasma desktop.
+This is a fork of [Monterey KDE Theme](https://github.com/vinceliuice/Monterey-kde) by vinceliuice, it has the following
+modifications:
 
-In this repository you'll find:
+* KDE Plasma logo instead of Apple logo
+* Top panel has a clock and application icon
 
-- Aurorae Theme
-- Kvantum Theme
-- Wallpaper Theme
-- Plasma Color Scheme
-- Plasma Desktop Theme
-- Plasma Global Theme
-
-## Installation
-
-```sh
-./install.sh
-```
-
-## Recommendations
-
-- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#distributions).
-
-  Run `kvantummanager` to choose and apply **Monterey** (or any other Monterey) theme.
-
-- Install [WhiteSur icon theme](https://github.com/vinceliuice/WhiteSur-icon-theme) for a more consistent and beautiful experience.
-
-- Install [WhiteSur cursors theme](https://github.com/vinceliuice/WhiteSur-cursors) for a more consistent and beautiful experience.
-
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
-## License
-
-GNU GPL v3
-
-## preview
-
-![light](plasma/look-and-feel/com.github.vinceliuice.Monterey/contents/previews/fullscreenpreview.jpg)
-![dark](plasma/look-and-feel/com.github.vinceliuice.Monterey-dark/contents/previews/fullscreenpreview.jpg)
-
-
+The source code is in the main branch. The sync branch contains GitHub workflows that apply patches for aforementioned
+changes to the original source code and store it in the main branch.
